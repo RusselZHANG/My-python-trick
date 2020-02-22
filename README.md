@@ -1,6 +1,6 @@
 # My-python-trick
 
-accumulated python methods
+Accumulated python write-up
 
 ## Data structure
 
