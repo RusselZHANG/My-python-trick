@@ -19,7 +19,7 @@ for k,v in a.item()：
     keys.append(k)
     values.append(v)
 ```
-2. Heapq 堆
+2. Heapq 堆\
 Using heapq.heapify instantiate heap，it is used for sorting ，using heappush and heappop to output the result.<br>
 heap[0] is the min of heap
 ```python
