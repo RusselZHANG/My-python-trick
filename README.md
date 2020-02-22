@@ -1,7 +1,7 @@
 # My-python-trick
 
 Accumulated python write-up
-
+Python auto type     
 ## Data structure
 
 1. Access to data structure
