@@ -41,7 +41,7 @@ with open("/tmp/foo.txt") as file:
     data = file.read()
 ```
 
-### 3. Heapq 堆\
+### 3. Heapq 堆
 --------------------------
 Using heapq.heapify instantiate heap，it is used for sorting ，using heappush and heappop to output the result.<br>
 heap[0] is the min of heap
