@@ -4,7 +4,8 @@ Accumulated python write-up
 Python auto type     
 ## Data structure
 
-1. Access to data structure
+### 1. Access to data structure
+----------------------------------
 * Dictionary:
 ```python
 a = dict()
@@ -19,7 +20,24 @@ for k,v in a.item()：
     keys.append(k)
     values.append(v)
 ```
-2. Heapq 堆\
+### 2. Open/close file while using: return error information then maintain
+----------------------------------
+1st version: Useful but long
+```python
+file = open("/tmp/foo.txt")
+try:
+    data = file.read()
+finally:
+    file.close()
+ ```
+2nd version: with sentence 
+ ```python
+with open("/tmp/foo.txt") as file:
+    data = file.read()
+```
+
+### 3. Heapq 堆\
+--------------------------
 Using heapq.heapify instantiate heap，it is used for sorting ，using heappush and heappop to output the result.<br>
 heap[0] is the min of heap
 ```python
