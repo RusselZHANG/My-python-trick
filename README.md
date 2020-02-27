@@ -20,6 +20,11 @@ for k,v in a.item()：
     keys.append(k)
     values.append(v)
 ```
+Or dict.get():
+```python 
+a = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
+dict.get('one', default='Not found')
+```
 ### 2. Open/close file while using: return error information then maintain
 ----------------------------------
 1st version: Useful but long
