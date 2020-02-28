@@ -25,6 +25,11 @@ Or dict.get():
 a = dict(zip(['one', 'two', 'three'], [1, 2, 3]))
 dict.get('one', default='Not found')
 ```
+* list2darray: without pre-allocating memory
+The great difference between np.darray and list: np.darray[:,:] is accessible but list[:,:] not. To transform, use sentence below: 
+```python
+dist_2d = np.array(dist_2d, dtype=float)
+```
 ### 2. Open/close file while using: return error information then maintain
 ----------------------------------
 1st version: Useful but long
