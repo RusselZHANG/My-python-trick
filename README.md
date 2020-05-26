@@ -53,8 +53,8 @@ heap[0] is the min of heap
 ```python
 #defining:
 nums = [2, 3, 5, 1, 54, 23, 132]
-heap = heapq.heapify(nums)
-print(heap[0],[heapq.heappop(heap) for _ in range(len(nums))])
+heapq.heapify(nums)
+print(nums[0],[heapq.heappop(nums) for _ in range(len(nums))])
 
 #value extraction
 print(heapq.nlargest(3, nums))
